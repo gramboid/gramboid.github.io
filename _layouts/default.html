@@ -2,11 +2,27 @@
 
 <html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <style>
   div.header {
     padding-left: 50px;
+    padding-right: 50px;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
+
+  div.footer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  p.footer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+  
 </style>
 
 <!-- favicon -->
@@ -40,8 +56,10 @@
 
 {{ content }}
 
-<div>
-&copy; Gramboid Mobile Systems Ltd 2015
+<div class="footer">
+<p class="footer">
+&copy; 2015 Gramboid Mobile Systems Ltd
+</p>
 </div>
 
 </body>

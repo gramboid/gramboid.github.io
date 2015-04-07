@@ -12,6 +12,7 @@ html, body {
 }
 
 #head {
+  position: relative;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
@@ -36,4 +37,14 @@ html, body {
   text-align: center;
 }
 
+#header_links {
+  position: absolute;
+  bottom: 36px;
+  left:320px;
+}
+
+span.header_link {
+  font-size: 20px;
+  padding-left: 20px;
+}
 

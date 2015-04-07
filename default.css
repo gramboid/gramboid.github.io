@@ -13,16 +13,16 @@ html, body {
 
 #head {
   position: relative;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 130px;
+  padding-right: 130px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 #content {
   padding-bottom:40px;   /* Height of the footer element */
-  padding-left: 122px;
-  padding-right: 122px;
+  padding-left: 202px;
+  padding-right: 202px;
   padding-top: 40px;
 }
 
@@ -40,7 +40,7 @@ html, body {
 #header_links {
   position: absolute;
   bottom: 36px;
-  left:320px;
+  left:400px;
 }
 
 span.header_link {

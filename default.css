@@ -4,12 +4,18 @@ html, body {
   height:100%;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-
 }
 
 #wrapper {
   min-height:100%;
   position:relative;
+}
+
+#head {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #content {
@@ -30,16 +36,4 @@ html, body {
   text-align: center;
 }
 
-
-div.header {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-}
 

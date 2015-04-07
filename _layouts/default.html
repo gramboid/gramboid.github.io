@@ -27,24 +27,26 @@
 
 <body>
 
-  <div class="header">
-    <img src="logo_with_text.svg" width=240 height=64 >
+  <div id="wrapper">
 
-    <div align="right">
-      Blog
+    <div class="header">
+      <img src="logo_with_text.svg" width=240 height=64 >
+      <div align="right">
+        Blog
+      </div>
+    </div>
+
+    <div id="content">
+      {{ content }}
+    </div>
+
+    <div id="footer">
+        &copy; 2015 Gramboid Mobile Systems Ltd
     </div>
 
   </div>
 
-  <div id="main">
-    {{ content }}
-  </div>
-
-  <div class="footer">
-    <p class="footer">
-      &copy; 2015 Gramboid Mobile Systems Ltd
-    </p>
-  </div>
-
+  <!-- footer -->
+  
 </body>
 </html>

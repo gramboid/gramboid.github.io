@@ -60,3 +60,8 @@ span.header_link_right {
   font-size: 14px;
   padding-left: 36px;
 }
+
+code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}

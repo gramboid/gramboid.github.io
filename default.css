@@ -37,14 +37,26 @@ html, body {
   text-align: center;
 }
 
-#header_links {
+#header_links_left {
   position: absolute;
   bottom: 36px;
   left:400px;
 }
 
-span.header_link {
+
+#header_links_right {
+  position: absolute;
+  bottom: 36px;
+  right:202px;
+}
+
+span.header_link_left {
   font-size: 20px;
   padding-left: 20px;
 }
 
+span.header_link_right {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-left: 36px;
+}

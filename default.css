@@ -2,8 +2,10 @@ html, body {
   margin:0;
   padding:0;
   height:100%;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
 }
 
 #wrapper {
@@ -63,11 +65,17 @@ span.header_link_right {
 
 code {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
+  font-size: 85%;
+}
+
+p code {
+  background-color: rgba(128, 128, 128, 0.05);
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 pre {
-  padding: 8px;
-  background-color: rgba(128, 128, 128, 0.1);
-
+  padding: 16px;
+  background-color: rgba(128, 128, 128, 0.05);
+  line-height: 1.45;
 }

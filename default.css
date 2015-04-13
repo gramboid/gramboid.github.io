@@ -65,3 +65,9 @@ code {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
+
+pre {
+  padding: 8px;
+  background-color: rgba(128, 128, 128, 0.1);
+
+}

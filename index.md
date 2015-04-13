@@ -17,8 +17,9 @@ Nulla non sollicitudin enim. Pellentesque nec nibh faucibus, efficitur mi ac, ve
 public static void main(String[] args) {
     // declare a variable
     int i = 99;
+    String name = "Willy";
 }
 ```
 
-Willy Wonka was here.
+Willy Wonka was here with some `inline code` you might like.
 

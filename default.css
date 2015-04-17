@@ -19,8 +19,19 @@ html, body {
   padding-right: 130px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#sub_head {
+  position: relative;
+  padding-left: 202px;
+  padding-right: 202px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: rgba(0,128,128,0.06);
+  border-top: 1px solid rgba(0,128,128,0.5);
   border-bottom: 1px solid rgba(0,128,128,0.5);
+  text-align: center;
+
 }
 
 #content {
@@ -42,13 +53,10 @@ html, body {
 }
 
 #header_links_left {
-  position: absolute;
-  bottom: 36px;
-  left:400px;
   text-decoration: none;
   color:inherit;
+  display: inline-block;
 }
-
 
 #header_links_right {
   position: absolute;
@@ -61,7 +69,9 @@ html, body {
 
 span.header_link_left {
   font-size: 20px;
-  padding-left: 20px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 span.header_link_right {

@@ -2,9 +2,15 @@
 layout: default
 ---
 
+Gramboid is a boutique software consultancy specializing in mobile app development.
 
-# This is Gramboid. Welcome!
+Let Gramboid help you!
 
-Mobile Software Consultancy.
+- [Android](http://developer.android.com/index.html) app, library and framework development
+- Optimization and bug-fixing
+- Supporting, maintaining and updating your existing apps
+- Mobile application security
 
-We love [Android](http://developer.android.com/index.html).
+
+<!-- ![Android](android_robot.png) -->
+

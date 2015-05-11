@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Contact Us
+title: Contact
 ---
 
-# Contact Us
+# Get In Touch
 
-Let's talk!
+Let's talk! Fill in this form, or drop us an email at <a href="mailto:infoATgramboidDOTcom" onclick="this.href=this.href
+              .replace(/AT/,'&#64;')
+              .replace(/DOT/,'&#46;')">info<span id="dummy">REMOVE</span>@gramboid<span id="dummy">REMOVE</span>.com</a>.
 
 <form action="//formspree.io/info@gramboid.com" id="contact_form" method="POST">
 

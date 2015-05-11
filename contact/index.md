@@ -5,7 +5,7 @@ title: Contact Us
 
 # Contact Us
 
-We'd love to hear from you!
+Let's talk!
 
 <form action="//formspree.io/info@gramboid.com" id="contact_form" method="POST">
 
@@ -16,6 +16,8 @@ We'd love to hear from you!
 
 **Email**<br>
 <input type="email" name="_replyto" form="contact_form">
+
+<input type="text" name="_gotcha" style="display:none" />
 
 **Your Message**<br>
 <textarea name="comment" form="contact_form">
